@@ -1,0 +1,244 @@
+[
+        {
+            "id": "E01",
+            "title": "Harry Potter and the Philosopher's Stone",
+            "year": "2001",
+            "image": "https://booksrealwhenshared.files.wordpress.com/2020/01/images.jpg?w=640",
+            "plot": "Adaptation of J.K. Rowling's popular children's novels about Harry Potter, a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards. There, he meets several friends who become his closest allies and help him discover the truth about his parents' mysterious deaths.",
+            "cast": "Daniel Radcliffe, Emma Watson, Rupert Grint",
+            "director": "Chris Columbus",
+            "price":8
+        },
+        {
+            "id": "E02",
+            "title": "Spider-Man",
+            "year": "2002",
+            "image": "https://preview.redd.it/1ney1sak7ww61.jpg?width=960&format=pjpg&auto=webp&s=b25678eb4991c91c9e7a22370de151c8ec157e42",
+            "plot": "Peter Parker, a high school student bitten by a genetically altered spider, gains superpowers. He struggles with responsibility while pining for Mary Jane Watson. As Spider-Man, he faces the Green Goblin, a foe linked to Norman Osborn, Peter's friend's father. Their conflict intensifies, leading to a climactic battle where Peter must choose between his personal desires and his duty as a hero, ultimately embracing his role as Spider-Man to protect New York City.",
+            "cast": "Tobey Maguire, Willem Dafoe, Kirsten Dunst",
+            "director": "Sam Raimi",
+            "price":8
+        },
+        {
+            "id": "E03",
+            "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+            "year": "2003",
+            "image": "https://picfiles.alphacoders.com/348/348608.jpg",
+            "plot": "Capt. Jack Sparrow (Johnny Depp) arrives at Port Royal in the Caribbean without a ship or crew. His timing is inopportune, however, because later that evening the town is besieged by a pirate ship. The pirates kidnap the governor's daughter, Elizabeth (Keira Knightley), who's in possession of a valuable coin that is linked to a curse that has transformed the pirates into the undead. A gallant blacksmith (Orlando Bloom) in love with Elizabeth allies with Sparrow in pursuit of the pirates.",
+            "cast": "Johnny Depp, Keira Knightley, Orlando Bloom",
+            "director": "Gore Verbinski",
+            "price":9
+        },
+        {
+            "id": "E04",
+            "title": "National Treasure",
+            "year": "2004",
+            "image": "https://i.ebayimg.com/images/g/7REAAOSwK6xhXzhv/s-l1600.webp",
+            "plot": "Ben Gates has been searching for a rumored treasure dating back to the creation of the United States. He finds a clue linking the treasure to the Declaration of Independence.",
+            "cast": "Nicolas Cage, Diane Kruger, Justin Bartha",
+            "director": "Jon Turteltaub",
+            "price":9
+        },
+        {
+            "id": "E05",
+            "title": "Batman Begins",
+            "year": "2005",
+            "image": "https://vice-press.com/cdn/shop/files/Batman-Begins-Movie-poster-Ben-Terdik.jpg?v=1690885107&width=1024",
+            "plot": "Bruce Wayne travels to the Far East, where he's trained in the martial arts by Henri Ducard. Wayne returns to Gotham intent on cleaning up the city without resorting to murder.",
+            "cast": "Christian Bale, Michael Caine, Liam Neeson",
+            "director": "Christopher Nolan",
+            "price":10
+        },
+        {
+            "id": "E06",
+            "title": "The Pursuit of Happyness",
+            "year": "2006",
+            "image": "https://media.licdn.com/dms/image/C5112AQFtu0ZFm4_kWQ/article-cover_image-shrink_600_2000/0/1546591471660?e=2147483647&v=beta&t=-rldn0rVAWfgnM9FKmtjlh8pi1H3nfoLvG5lllVkMwM",
+            "plot": "Life is a struggle for single father Chris Gardner (Will Smith). Evicted from their apartment, he and his young son find themselves alone with no place to go. Despite hardships, Chris refuses to give in to despair as he struggles to create a better life for himself and his son.",
+            "cast": "Will Smith, Jaden Smith",
+            "director": "Gabriele Muccino",
+            "price":9
+        },
+        {
+            "id": "E07",
+            "title": "Superbad",
+            "year": "2007",
+            "image": "https://picfiles.alphacoders.com/392/392021.jpg",
+            "plot": "\"Superbad\" follows high school seniors Seth and Evan on a quest to lose their virginity before graduation. Their plans go awry when they accidentally befriend eccentric classmate McLovin and get entangled in a series of misadventures.",
+            "cast": "Jonah Hill, Michael Cera, Christopher Mintz-Plasse",
+            "director": "Greg Mottola",
+            "price":9
+        },
+        {
+            "id": "E08",
+            "title": "The Dark Knight",
+            "year": "2008",
+            "image": "https://c4.wallpaperflare.com/wallpaper/165/112/37/batman-the-dark-knight-joker-wallpaper-preview.jpg",
+            "plot": "Batman faces his greatest challenge yet as he confronts the chaotic Joker, who wreaks havoc on Gotham City. The Joker's reign of terror pushes Batman to his limits as he grapples with moral dilemmas and the blurred lines between heroism and vigilantism.",
+            "cast": "Christian Bale, Heath Ledger, Aaron Eckhart",
+            "director": "Christopher Nolan",
+            "price":12
+
+        },
+        {
+            "id": "E09",
+            "title": "Avatar",
+            "year": "2009",
+            "image": "https://wallpapercave.com/wp/wp5207687.jpg",
+            "plot": "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Jake Sully, a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman. As a bond with her grows, he is drawn into a battle for the survival of her world.",
+            "cast": "Zoe Saldana, Sam Worthington, Sigourney Weaver",
+            "director": "James Cameron",
+            "price":13
+
+        },
+        {
+            "id": "E10",
+            "title": "Inception",
+            "year": "2010",
+            "image": "https://cdn.ticketsource.co.uk/images/promoter/banner/41704-16955481264914-m.png",
+            "plot": "Dom Cobb is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves.",
+            "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
+            "director": "Christopher Nolan",
+            "price":12
+        },
+        {
+            "id": "E11",
+            "title": "In Time",
+            "year": "2011",
+            "image": "https://image.tmdb.org/t/p/original/3L8TkLhwudhJVD3YW2SutYWg4cV.jpg",
+            "plot": "In a future where time is money and the wealthy can live forever, Will Salas is a poor man who rarely has more than a day's worth of life on his time clock. When he saves Henry Hamilton from time thieves, Will receives the gift of a century.",
+            "cast": "Justin Timberlake, Amanda Seyfried, Cillian Murphy",
+            "director": "Andrew Niccol",
+            "price":10
+        },
+        {
+            "id": "E12",
+            "title": "The Avengers",
+            "year": "2012",
+            "image": "https://pbs.twimg.com/media/FrJUfMbXgAULB0S?format=jpg&name=4096x4096",
+            "plot": "Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. This movie marks a pivotal point in the Marvel Cinematic Universe, bringing together superheroes from across the galaxy to fight a common enemy.",
+            "cast": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth",
+            "director": "Joss Whedon",
+            "price":12
+        },
+        {
+            "id": "E13",
+            "title": "The Wolf of Wall Street",
+            "year": "2013",
+            "image": "https://wallpapers.com/images/hd/wolf-of-wall-street-movie-poster-dcz1czdi16k7oxts.jpg",
+            "plot": "Jordan Belfort, a young and ambitious stockbroker, dives into the world of greed and excess, leading to his rise and fall on Wall Street. The movie explores themes of ambition, corruption, and redemption.",
+            "cast": "Leonardo DiCaprio, Jonah Hill, Margot Robbie",
+            "director": "Martin Scorsese",
+            "price":11
+        },
+        {
+            "id": "E14",
+            "title": "Interstellar",
+            "year": "2014",
+            "image": "https://w0.peakpx.com/wallpaper/438/840/HD-wallpaper-interstellar-2014-movie-poster.jpg",
+            "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival. The journey explores complex themes of love, sacrifice, and the survival instinct.",
+            "cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+            "director": "Christopher Nolan",
+            "price":14
+        },
+        {
+            "id": "E15",
+            "title": "The Big Short",
+            "year": "2015",
+            "image": "https://m.media-amazon.com/images/I/91dC4o8mScL._AC_SY879_.jpg",
+            "plot": "In the mid-2000s, a group of financial analysts predict the collapse of the housing market and decide to take on the big banks for their greed and lack of foresight.",
+            "cast": "Christian Bale, Steve Carell, Ryan Gosling",
+            "director": "Adam McKay",
+            "price":12
+        },
+        {
+            "id": "E16",
+            "title": "Deadpool",
+            "year": "2016",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSaDhG0xYPYIIjzU67IZkxKvFRV0gqtRDzTzqqI14FuzqUF8-yr",
+            "plot": "Wade Wilson, a former Special Forces operative turned mercenary, adopts the alter ego Deadpool after being subjected to a rogue experiment that leaves him with accelerated healing powers.",
+            "cast": "Ryan Reynolds, Morena Baccarin, T.J. Miller",
+            "director": "Tim Miller",
+            "price":13
+        },
+        {
+            "id": "E17",
+            "title": "John Wick: Chapter 2",
+            "year": "2017",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjE2NDkxNTY2M15BMl5BanBnXkFtZTgwMDc2NzE0MTI@._V1_.jpg",
+            "plot": "John Wick is forced back out of retirement by a former associate plotting to seize control of a shadowy international assassins’ guild. Bound by a blood oath, John travels to Rome to stop the assailant.",
+            "cast": "Keanu Reeves, Riccardo Scamarcio, Ian McShane",
+            "director": "Chad Stahelski",
+            "price":13
+        },
+        {
+            "id": "E18",
+            "title": "Avengers: Infinity War",
+            "year": "2018",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
+            "plot": "Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment.",
+            "cast": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Josh Brolin",
+            "director": "Anthony Russo, Joe Russo",
+            "price":18
+        },
+        {
+            "id": "E19",
+            "title": "Avengers: Endgame",
+            "year": "2019",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
+            "plot": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.",
+            "cast": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Josh Brolin",
+            "director": "Anthony Russo, Joe Russo",
+            "price":20
+        },
+        {
+            "id": "E20",
+            "title": "Palm Springs",
+            "year": "2020",
+            "image": "https://m.media-amazon.com/images/I/91Jg1ls8H6L._AC_SY879_.jpg",
+            "plot": "\"Palm Springs\" follows Nyles and Sarah, who become stuck in a time loop at a wedding in Palm Springs. Nyles has been trapped for some time and has adopted a carefree attitude, while Sarah is a reluctant participant. As they navigate the same day repeatedly, they form a bond and explore the consequences of their actions. Together, they confront their fears, past mistakes, and uncertainties, ultimately finding a way to break free from the loop and move forward.",
+            "cast": "Andy Samburg, Cristin Miloti, J.K. Simmons",
+            "director": "Max Barbakow",
+            "price":15
+        },
+        {
+            "id": "E21",
+            "title": "Spider-Man: No Way Home",
+            "year": "2021",
+            "image": "https://i.ebayimg.com/images/g/fOIAAOSwfSpjRxpl/s-l1600.webp",
+            "plot": "In \"Spider-Man: No Way Home\" (2021), Peter Parker's identity as Spider-Man is exposed, disrupting his life. He seeks the help of Doctor Strange to erase this revelation, but an incident with a spell unleashes villains from other dimensions. Together with alternate Spider-Men, Peter battles to contain the chaos while grappling with sacrifices and the consequences of altering reality.",
+            "cast": "Tom Holland, Tobey Maguire, Andrew Garfield, Zendaya, Marisa Tomei",
+            "director": "Jon Watts",
+            "price":20
+        },
+        {
+            "id": "E22",
+            "title": "Top Gun: Maverick",
+            "year": "2022",
+            "image": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+            "plot": "In \"Top Gun: Maverick\" (2022), Pete \"Maverick\" Mitchell, now a flight instructor, mentors Bradley Bradshaw, the son of his late friend Goose. Maverick confronts his own past while training a new generation of pilots. As tensions rise and secrets are revealed, Maverick must navigate personal and professional challenges to prove his worth and honor his legacy as a top pilot.",
+            "cast": "Tom Cruise, Miles Teller, Val Kilmer, Glen Powell, Jennifer Connelly",
+            "director": "Joseph Kosinski",
+            "price":25
+        },
+        {
+            "id": "E23",
+            "title": "Oppenheimer",
+            "year": "2023",
+            "image": "https://movies.universalpictures.com/media/06-opp-dm-mobile-banner-1080x745-now-pl-f01-071223-64bab982784c7-1.jpg",
+            "plot": "During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course of history.",
+            "cast": "Cillian Murphy, Robert Downey Jr., Florence Pugh, Matt Damon",
+            "director": "Christopher Nolan",
+            "price":30
+        },
+        {
+            "id": "E24",
+            "title": "Dune-2",
+            "year": "2024",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNgijMfbbgqI-PDhoPa4bo64fp90yrboBdgMHbcW9fg05sv4Zx",
+            "plot": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he must prevent a terrible future only he can foresee.",
+            "cast": "Timothee Chalamet, Austin Butler, Florence Pugh, Zendeya",
+            "director": "Denis Villeneuve",
+            "price":28
+        }
+    ]

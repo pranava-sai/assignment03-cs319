@@ -1,0 +1,242 @@
+[
+    {
+        "id":"T01",
+        "title":"Kushi",
+        "year":"2001",
+        "url":"https://m.media-amazon.com/images/M/MV5BMmE3OWE1NTItZTE5ZC00MmM5LThiZjctNTQ5OTI0NzcyZTIxXkEyXkFqcGdeQXVyNjQ1MDcxNzM@._V1_.jpg",
+        "plot":"Madhu and Siddhu, born in different regions, develop a deep bond as friends. Despite a misunderstanding that leads to the end of their friendship, they reunite to help their friends in love. During the process, they realize their own feelings for each other, eventually marrying and setting a Guinness Record for having 17 children in 10 years.",
+        "cast":"Pawan Kalyan, Bhumika Chawla",
+        "director":"S.J.Surya",
+        "price":15
+    },
+    {
+        "id":"T02",
+        "title":"Indra",
+        "year":"2002",
+        "url":"https://i.pinimg.com/564x/51/84/0c/51840cd17630a975f2c12af117fcf840.jpg",
+        "plot":"In a Rayalaseema village, clan violence leads to tragedy. Indrasena Reddy becomes leader, and the story shifts to 2002 Varanasi, where Shankar Narayana's life intertwines with love an hidden identities, culminating in a return to the village, revealing family secrets and emphasizing unity amid conflict.",
+        "cast":"Chiranjeevi, Sonali Bindre, Aarti Agarwal",
+        "director":"B. Gopal",
+        "price":15
+    },
+    {
+        "id":"T03",
+        "title":"Okkadu",
+        "year":"2003",
+        "url":"https://i.redd.it/fllsas5jyul91.png",
+        "plot":"Kabbadi player Ajay Varma saves Swapna from faction leader Obul Reddy, fostering love. Despite challenges, including Ajay's arrest and Swapna's kidnap, they triumph during the national Kabbadi finals. Love prevails, reuniting Swapna's family, and Ajay emerges victorious, celebrating triumph over adversity",
+        "cast":"Mahesh Babu, Bhumika Chawla",
+        "director":"Gunasekhar",
+        "price":14
+    },
+    {
+        "id":"T04",
+        "title":"Shankar Dada M.B.B.S",
+        "year":"2004",
+        "url":"https://m.media-amazon.com/images/M/MV5BOWQ3MDMyMjAtMWY2NC00ZGQ2LTlmMTktMDU1NTQ5OTBmNzQ1XkEyXkFqcGdeQXVyMjIxNzk0MjE@._V1_.jpg",
+        "plot":"Shankar Prasad, a crime lord in Hyderabad, conceals his identity to fulfill his father's wish for him to become a doctor. Exposed during a marriage proposal, he seeks redemption by pursuing a medical degree. Despite minimal skills, he transforms lives at Osmania College of Medical Sciences. Shankar's departure, driven by guilt, leads to a miraculous awakening. He marries Sunitha, reconciles with his parents, and becomes Shankar Dada MBBS.",
+        "cast":"Chiranjeevi, Sonali Bindre",
+        "director":"Jayanth C. Paranjee",
+        "price":17
+    },
+    {
+        "id":"T05",
+        "title":"Athadu",
+        "year":"2005",
+        "url":"https://m.media-amazon.com/images/M/MV5BMDU4MDQ3YWItY2ViMy00NTM5LTg0NjQtMWIxN2ExZmU0ZTE0XkEyXkFqcGdeQXVyMjMyNjkwMTY@._V1_.jpg",
+        "plot":"A skilled assassin, falsely accused of a politician's murder, takes refuge in the home of a kind-hearted woman. While posing as her long-lost cousin, he becomes entangled in a web of deception, discovering family secrets and confronting his own past. As the truth unfolds, he seeks justice against those who framed him.",
+        "cast":"Mahesh Babu, Trisha Krishnan",
+        "director":"Trivikram Srinivas",
+        "price":13
+    },
+    {
+        "id":"T06",
+        "title":"Pokiri",
+        "year":"2006",
+        "url":"https://m.media-amazon.com/images/M/MV5BOWNkMWQ3MDEtYjQ3Zi00Y2NhLWE1NzYtZGJkM2NlYWY3OWFmXkEyXkFqcGdeQXVyNDY5MTUyNjU@._V1_.jpg",
+        "plot":"A fearless and crafty undercover cop, Pandu, infiltrates the criminal underworld to dismantle a powerful mafia network led by Ali Bhai. While navigating a perilous world of deception, Pandu discovers unexpected alliances and faces personal challenges.",
+        "cast":"Mahesh Babu, Ileana D'Cruz",
+        "director":"Puri Jagannadh",
+        "price":17
+    },
+    {
+        "id":"T07",
+        "title":"Yamadonga",
+        "year":"2007",
+        "url":"https://wallpapercave.com/wp/wp5283582.jpg",
+        "plot":"Raja, a small-time crook, unexpectedly finds himself in the afterlife and faces the consequences of his misdeeds. When he outwits Lord Yama, the god of death, Raja is granted a second chance at life. Upon returning, he realizes the power of good deeds and embarks on a journey to reform his ways.",
+        "cast":"NTR. Jr., Priyamani",
+        "director":"S.S.Rajamouli",
+        "price":18
+    },
+    {
+        "id":"T08",
+        "title":"Jalsa",
+        "year":"2008",
+        "url":"https://i.pinimg.com/originals/dd/de/15/ddde15451f7d242bbd41c4c4d6da34b7.jpg",
+        "plot":"Sanjay Sahu, a carefree youth, discovers a political conspiracy and is wrongly accused of murder. On the run, he adopts a new identity in a village, entangling himself in complex relationships and secrets. Unraveling the truth, he confronts his past to bring justice to those who framed him.",
+        "cast":"Pawan Kalyan, Ileana D'Cruz",
+        "director":"Trivikram Srinivas",
+        "price":17
+    },
+    {
+        "id":"T09",
+        "title":"Magadheera",
+        "year":"2009",
+        "url":"https://images.static-bluray.com/movies/covers/10263_front.jpg?t=1417043637",
+        "plot":"A brave warrior from the past, Kala Bhairava, reincarnates in the present as Harsha, a bike stuntman, to fulfill his unfinished mission of avenging his lover's death and protecting his kingdom's honor. Entwined in a tale of love, betrayal, and reincarnation, Harsha discovers his past life and battles against evil forces to restore justice.",
+        "cast":"Ram Charan, Kajal Agarwal",
+        "director":"S.S.Rajamouli",
+        "price":18
+    },
+    {
+        "id":"T010",
+        "title":"Khaleja",
+        "year":"2010",
+        "url":"https://www.idlebrain.com/images4/wp-44khaleja1280.jpg",
+        "plot":"A man named Seetarama Raju, mistaken for a godman, becomes embroiled in a series of events involving a mysterious village plagued by drought and corruption. Alongside a taxi driver named Subhashini, he uncovers the truth behind the village's misfortunes and confronts the powerful forces at play. As the villagers rally behind him, Seetarama Raju emerges as their unlikely savior, bringing hope and justice to their lives.",
+        "cast":"Mahesh Babu, Anushka Shetty",
+        "director":"Trivikram Srinivas",
+        "price":13
+    },
+    {
+        "id":"T011",
+        "title":"Dookudu",
+        "year":"2011",
+        "url":"https://wallpapercave.com/wp/wp8755190.jpg",
+        "plot":"In the political era of N. T. Rama Rao, independent MLA Shankar Narayana falls into a coma after a staged accident. His son Ajay, a Mumbai police officer, seeks justice by infiltrating the mafia. Ajay orchestrates a complex charade to protect his father from shocking truths, successfully avenging his father's enemies while maintaining a facade of political influence and familial harmony.",
+        "cast":"Mahesh Babu, Samantha",
+        "director":"Srinu Vaitla",
+        "price":14
+    },
+    {
+        "id":"T012",
+        "title":"Gabbar Singh",
+        "year":"2012",
+        "url":"https://www.cinejosh.com/gallereys/movies/normal/gabbar_singh_movie_wallpapers_1504120616/gabbar_singh_movie_wallpapers_1504120616_03.jpg",
+        "plot":"A fearless and eccentric cop, Gabbar Singh, returns to his hometown and confronts corruption in the police force. Unconventional in his methods, he clashes with the local goon Siddhappa Naidu. Amidst the chaos, he falls for Bhagyalakshmi, the daughter of a local chief. The film explores Gabbar Singh's journey as he fights against injustice and strives to bring about positive change.",
+        "cast":"Pawan Kalyan, Shruti Haasan",
+        "director":"Harish Shankar",
+        "price":15
+    },
+    {
+        "id":"T013",
+        "title":"Attarintiki Daaredi",
+        "year":"2013",
+        "url":"https://moviegalleri.net/wp-content/gallery/attarintiki-daredi-release-posters-wallpapers/attarintiki_daredi_movie_release_date_posters_pawan_kalyan_192f71e.jpg",
+        "plot":"A wealthy businessman's grandson, Gautham Nanda, embarks on a journey to reconcile with his estranged aunt, Sunanda, as per his grandfather's dying wish. Disguised as Siddharth, a driver, he infiltrates Sunanda's household and forms deep connections with her family members. Along the way, he uncovers hidden truths, confronts past grievances, and strives to unite his fractured family against all odds.",
+        "cast":"Pawan Kalyan, Samantha, Pranitha Subash",
+        "director":"Trivikram Srinivas",
+        "price":14
+    },
+    {
+        "id":"T014",
+        "title":"Race Gurram",
+        "year":"2014",
+        "url":"https://moviegalleri.net/wp-content/uploads/2013/12/actor_allu_arjun_race_gurram_movie_first_look_posters_685236.jpg",
+        "plot":"Two brothers, Ram and Lakshman, lead contrasting lives; Ram is a strict, law-abiding police officer, while Lakshman embraces a carefree, adventurous lifestyle. Their worlds collide when Ram is assigned to apprehend the notorious crime lord, Shiva Reddy. As the brothers join forces, their unique approaches create both chaos and comic situations.",
+        "cast":"Allu Arjun, Shruti Haasan",
+        "director":"B. Surender Reddy",
+        "price":15
+    },
+    {
+        "id":"T015",
+        "title":"Baahubali - The Beginning",
+        "year":"2015",
+        "url":"https://wallpapercave.com/wp/wp1851897.jpg",
+        "plot":"A tribal warrior named Shivudu, unaware of his royal lineage, discovers the ancient kingdom of Mahishmati and falls in love with Avantika. Learning about his destiny and the betrayal surrounding his mother, Shivudu transforms into the powerful warrior Baahubali. The film delves into political conspiracies, family dynamics, and epic battles as Baahubali seeks justice and uncovers the truth about his heritage.",
+        "cast":"Prabhas, Rana Daggubati, Anushka Shetty, Tamanna",
+        "director":"S.S.Rajamouli",
+        "price":27
+    },
+    {
+        "id":"T016",
+        "title":"Janatha Garage",
+        "year":"2016",
+        "url":"https://wallpapercave.com/wp/wp7508805.jpg",
+        "plot":"A mechanic named Anand, played by Jr. NTR, joins a garage known for its commitment to environmental causes and social welfare. An unexpected revelation connects Anand to the owner of the garage, Sathyam, portrayed by Mohanlal, who is revered for his dedication to the community. As Anand delves deeper into the garage's activities, he becomes embroiled in a conflict with a powerful businessman's son-in-law, played by Unni Mukundan. The film explores themes of environmental consciousness, social responsibility, and the consequences of unchecked power.",
+        "cast":"NTR. Jr., Samantha",
+        "director":"Koratala Siva",
+        "price":17
+    },
+    {
+        "id":"T017",
+        "title":"Baahubali - The Conclusion",
+        "year":"2017",
+        "url":"https://m.media-amazon.com/images/I/61Alk0qb76L._AC_UF894,1000_QL80_.jpg",
+        "plot":"After learning about his true lineage, Mahendra Baahubali vows to avenge his father's death and reclaim the throne from the tyrannical Bhallaladeva. With the help of his loyal companion Kattappa and the support of his mother Devasena, Mahendra embarks on a perilous journey to overthrow the oppressive regime. Along the way, he confronts formidable enemies, uncovers shocking betrayals, and ultimately fulfills his destiny as the rightful ruler of Mahishmati.",
+        "cast":"Prabhas, Rana Daggubati, Anushka Shetty, Tamanna",
+        "director":"S.S.Rajamouli",
+        "price":30
+    },
+    {
+        "id":"T018",
+        "title":"Aravinda Sametha Veera Raghava Reddy",
+        "year":"2018",
+        "url":"https://popcornusa.s3.amazonaws.com/gallery/1556835105-aravinda.jpg",
+        "plot":"A young man named Veera Raghava Reddy returns to his village to put an end to the longstanding feud between two rival factions, led by Narappa Reddy and Basi Reddy, following the death of his father. Amidst the chaos of violence and vengeance, he meets Aravinda, a woman determined to bring peace to their troubled community. Together, they strive to break the cycle of bloodshed and forge a path towards reconciliation.",
+        "cast":"NTR. Jr., Pooja Hegde",
+        "director":"Trivikram Srinivas",
+        "price":23
+    },
+    {
+        "id":"T019",
+        "title":"Maharshi",
+        "year":"2019",
+        "url":"https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2019/05/08/Maharashi-Releasing-Today-Poster-1.jpg?fit=1536%2C2048&quality=80&zoom=1&ssl=1",
+        "plot":"A self-made businessman, Rishi Kumar, embarks on a journey of self-discovery, reconnecting with his roots and confronting societal injustices. His transformative journey, from a successful entrepreneur to a champion of farmers' rights, resonates with themes of perseverance and social responsibility.",
+        "cast":"Mahesh Babu, Pooja Hegde",
+        "director":"Vamshi Paidipally",
+        "price":25
+    },
+    {
+        "id":"T020",
+        "title":"Ala Vaikuntapuramlo",
+        "year":"2020",
+        "url":"https://wallpapercave.com/wp/wp5241373.jpg",
+        "plot":"A young man, Bantu, discovers his true lineage after being swapped at birth due to a hospital error. Raised in a middle-class family, he confronts the stark contrast with his wealthy biological family, led by the stern Valmiki. Bantu endeavors to bridge the emotional gap with his newfound family while navigating love, corporate dynamics, and uncovering Valmiki's ulterior motives. As he strives for acceptance and justice, Bantu's journey becomes a poignant exploration of familial bonds.",
+        "cast":"Allu Arjun, Pooja Hegde, Nivetha Pethuraj",
+        "director":"Trivikram Srinivas",
+        "price":25
+    },
+    {
+        "id":"T021",
+        "title":"Pushpa - The Rise",
+        "year":"2021",
+        "url":"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/pushpa--the-rise-et00129541-08-12-2021-01-22-02.jpg",
+        "plot":"A rugged and resourceful smuggler named Pushpa, rises to prominence in the illegal sandalwood trade, facing off against ruthless adversaries and navigating treacherous terrain. His journey is marked by hardship, sacrifice, and a relentless pursuit of power and survival in the unforgiving forests of Andhra Pradesh. As tensions escalate and alliances shift, Pushpa's resilience and determination are put to the ultimate test.",
+        "cast":"Allu Arjun, Rashmika Mandanna",
+        "director":"Sukumar",
+        "price":20
+    },
+    {
+        "id":"T022",
+        "title":"RRR",
+        "year":"2022",
+        "url":"https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2022/05/17145613/ncXklBeNi7X7OETqmDVEgaf8ItQ-scaled.jpg",
+        "plot":"Set in the pre-independence era of India, two revolutionaries, Alluri Sitarama Raju and Komaram Bheem, unite against the British Raj and Nizam of Hyderabad. Their journey is marked by valor, sacrifice, and the pursuit of freedom. As they navigate through challenges and conflicts, their bond strengthens, propelling them towards their shared goal of liberating their people from oppression.",
+        "cast":"Ram Charan, NTR. Jr., Alia Bhatt",
+        "director":"S.S.Rajamouli",
+        "price":35
+    },
+    {
+        "id":"T023",
+        "title":"Salaar",
+        "year":"2023",
+        "url":"https://w0.peakpx.com/wallpaper/826/845/HD-wallpaper-prabhas-baahubali-film-hero-indian-film-kgf-kgf2-pan-salaar-trend.jpg",
+        "plot":"In 1985, close friends Deva and Vardha in Khansaar endure tribal conflicts and betrayals. Deva promises to return at Vardha's call. In 2017, entangled in Khansaar's political strife, Deva safeguards Aadhya, a tycoon's daughter, amid a web of conspiracies. Loyalty, vengeance, and hidden identities shape the narrative, exploring Khansaar's intricate history.",
+        "cast":"Prabhas, Shruti Haasan",
+        "director":"Prashanth Neel",
+        "price":26
+    },
+    {
+        "id":"T024",
+        "title":"HanuMan",
+        "year":"2024",
+        "url":"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/hanu-man-et00311673-1704954533.jpg",
+        "plot":"In the dystopian Anjanadri, petty thief Hanumanthu rescues Meenakshi from tyrant Gajapathi. Discovering a magical gem underwater, he gains superhuman strength. As Meenakshi seeks his identity, Hanumanthu confronts Gajapathi, proposing elections. Outsiders Michael and Siri exploit his powers, leading to familial conflicts and betrayal. Embracing his destiny chosen by Lord Hanuman, Hanumanthu navigates love and intrigue in a tale of power and destiny.",
+        "cast":"Teja Sajja, Amritha Aiyer, Varalakshmi Sarathkumar",
+        "director":"Prashanth Varma",
+        "price":26
+    }
+]

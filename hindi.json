@@ -1,0 +1,242 @@
+[
+    {
+        "id":"H01",
+        "title":"Kabhi Khushi Kabhue Gham",
+        "year":"2001",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Kabhi_Khushi_Kabhie_Gham..._poster.jpg/220px-Kabhi_Khushi_Kabhie_Gham..._poster.jpg",
+        "plot":"Rahul, the adoptive son of business magnate Yash Raichand, feels eternal gratitude to his father for rescuing him from a life of poverty. Yet, when Yash forbids his love of poor Anjali (Kajol), Rahul marries her and moves to London with new wife and sister-in-law, Pooja, breaking the heart of his mother. Ten years later, Rahul's younger brother comes to London intent on brokering peace between father and son.",
+        "cast":"Shahrukh Khan, Kareena Kapoor, Amitabh Bachchan, Hrithik Roshan, Kajol",
+        "director":"Karan Johar",
+        "price":11
+    },
+    {
+        "id":"H02",
+        "title":"Devdas",
+        "year":"2002",
+        "url":"https://upload.wikimedia.org/wikipedia/en/9/9a/Devdas_%282002_Hindi_film%29.jpg",
+        "plot":"Devdas makes his way back home to India after spending 10 years studying in London. He plans to marry Paro (Aishwarya Rai), his childhood best friend, but his parents do not want Devdas to marry her. They believe that Paro's family, who descend from a line of dancers, is of a lower class than their own. Eventually, Paro marries another man, and the despondent Devdas descends into life-threatening alcoholism.",
+        "cast":"Shahrukh Khan, Madhuri Dixit, Aishwarya Rai Bachchan, Jackie Shroff",
+        "director":"Sanjay Leela Bhansali",
+        "price":11
+    },
+    {
+        "id":"H03",
+        "title":"Kal Ho Naa Ho",
+        "year":"2003",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Kal_Ho_Naa_Ho.jpg/220px-Kal_Ho_Naa_Ho.jpg",
+        "plot":"Student Naina is good friends with her classmate, skirt-chaser Rohit. Her home life is rife with family tensions as her widowed mum's restaurant runs into difficulties. When charismatic Aman moves into the neighbourhood, he changes everyone's lives, bringing a breath of fresh air, and although he loses his heart to Naina, Aman has a secret that prevents him from marrying her.",
+        "cast":"Shahrukh Khan, Saif Ali Khan, Preity Zinta",
+        "director":"Nikkhil Advani",
+        "price":11
+    },
+    {
+        "id":"H03-1",
+        "title":"Munna Bhai M.B.B.S",
+        "year":"2004",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Munna_Bhai_M.B.B.S._poster.jpg/220px-Munna_Bhai_M.B.B.S._poster.jpg",
+        "plot":"Munna is a criminal who sets out to fulfill his father's dream of becoming a doctor. With help from his sidekick Circuit, he enrolls himself in medical college and drives Dr Asthana up the wall.",
+        "cast":"Sanjay Dutt, Arshad Warsi, Gracy Singh",
+        "director":"Rajkumar Hirani",
+        "price":13
+    },
+    {
+        "id":"H05",
+        "title":"Sarkar",
+        "year":"2005",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Sarkar_2005_poster.jpg/220px-Sarkar_2005_poster.jpg",
+        "plot":"Subhash Nagre runs a parallel government in the city where he has a cult following. When his enemies plot to murder him, his son takes charge and stands up against them.",
+        "cast":"Amitabh Bachchan, Abhishek Bachchan, Kay Kay Menon, Katrina Kaif",
+        "director":"Ram Gopal Varma",
+        "price":11
+    },
+    {
+        "id":"H06",
+        "title":"Krrish",
+        "year":"2006",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Krrish_poster.jpg/220px-Krrish_poster.jpg",
+        "plot":"Sequel to `Koi... Mil Gaya', continuing the story of Rohit Mehra, a young man who has inherited supernatural powers thanks to his father's encounter with an alien. The film was Indian cinema's biggest hit in 2006, with special effects and stunts that stole the hearts of millions of Indians.",
+        "cast":"Hrithik Roshan, Priyanka Chopra",
+        "director":"Rakesh Roshan",
+        "price":12
+    },
+    {
+        "id":"H07",
+        "title":"Chak De! India",
+        "year":"2007",
+        "url":"https://upload.wikimedia.org/wikipedia/en/0/0c/Chak_De%21_India.jpg",
+        "plot":"After failing to score the winning goal, Kabir Khan, Captain of the Men's Hockey Team is blamed for the team's loss and fired. Years later he is given a chance to salvage his reputation, when he is offered the position as coach of the Women's Hockey Team. One of his star players, Vidya, is forced to convince her tradition-minded parents that she should be allowed to play as the team prepares for a big tournament in Australia.",
+        "cast":"Shahrukh Khan, Vidya Malvade",
+        "director":"Shimit Amin",
+        "price":11
+    },
+    {
+        "id":"H08",
+        "title":"Jodhaa Akbar",
+        "year":"2008",
+        "url":"https://upload.wikimedia.org/wikipedia/en/0/0e/Jodhaa_akbar.jpg",
+        "plot":"Epic romance, set in 16th-century India, about the love story between Jalaluddin Mohammad Akbar, the Mughal Emperor of Hindustan, and Rajput princess Jodhaa. In order to extend his empire, Akbar agrees to a marriage of alliance to young and fiery Jodhaa but soon realizes he has to defend his choice of bride as his courtiers voice their displeasure at the idea of their Muslim Emperor marrying a Hindu.",
+        "cast":"Hrithik Roshan, Aishwarya Rai Bachchan, Sonu Sood",
+        "director":"Ashutosh Gowariker",
+        "price":12
+    },
+    {
+        "id":"H09",
+        "title":"3 Idiots",
+        "year":"2009",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/d/df/3_idiots_poster.jpg/220px-3_idiots_poster.jpg",
+        "plot":"In college, Farhan and Raju form a great bond with Rancho due to his positive and refreshing outlook to life. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive.",
+        "cast":"Aamir Khan, Sharman Joshi, R. Madhavan",
+        "director":"Rajkumar Hirani",
+        "price":11
+    },
+    {
+        "id":"H010",
+        "title":"Dabangg",
+        "year":"2010",
+        "url":"https://upload.wikimedia.org/wikipedia/en/7/73/Dabangg_poster.jpg",
+        "plot":"The biggest hit of Hindi cinema in recent times, this high-voltage tongue-in-cheek crime caper tells the story of Chulbul Pandey, an Uttar Pradesh cop who calls himself Robin Hood Pandey. Chulbul delights in flexing his muscles, picking fights and causing mayhem. Instead of arresting violent thieves, Chulbul happily robs the robbers, keeping the money locked up in his mother's safe.",
+        "cast":"Salman Khan, Sonakshi Sinha, Sonu Sood",
+        "director":"Abhinav Kashyap",
+        "price":12
+    },
+    {
+        "id":"H011",
+        "title":"Bodyguard",
+        "year":"2011",
+        "url":"https://upload.wikimedia.org/wikipedia/en/a/af/Bodyguard_poster.jpg",
+        "plot":"Lovely Singh is extremely respectful of Mr Rana and his daughter Divya. While appointed as Divya's bodyguard, he falls in love with a girl he has never met, unaware that she is none other than Divya.",
+        "cast":"Salman Khan, Kareena Kapoor Khan",
+        "director":"Siddique",
+        "price":11
+    },
+    {
+        "id":"H012",
+        "title":"Ek Tha Tiger",
+        "year":"2012",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Ek_Tha_Tiger_theatrical_poster.jpg/220px-Ek_Tha_Tiger_theatrical_poster.jpg",
+        "plot":"An agent is sent to observe the actions of an Indian scientist but the mission gets complicated when he falls in love with the scientist's caretaker.",
+        "cast":"Salman Khan, Katrina Kaif",
+        "director":"Kabir Khan",
+        "price":11
+    },
+    {
+        "id":"H013",
+        "title":"Krrish 3",
+        "year":"2013",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Krrish_3_%282013_film%29_poster.jpg/220px-Krrish_3_%282013_film%29_poster.jpg",
+        "plot":"Krishna enjoys married life with Priya until he crosses paths with Kaal, an evil genius, and neither is prepared for what lies ahead.",
+        "cast":"Hrithik Roshan, Priyanka Chopra, Kangana Ranaut, Vivek Oberoi",
+        "director":"Rakesh Roshan",
+        "price":12
+    },
+    {
+        "id":"H014",
+        "title":"Singham Returns",
+        "year":"2014",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Singham_Returns_Poster.jpg/220px-Singham_Returns_Poster.jpg",
+        "plot":"Singham returns as the brave and honest policeman who can settle a dispute with his words of wisdom and only resorts to force when necessary.",
+        "cast":"Ajay Devgn, Kareena Kapoor Khan",
+        "director":"Rohit Shetty",
+        "price":14
+    },
+    {
+        "id":"H015",
+        "title":"Bajrangi Bhaijaan",
+        "year":"2015",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Bajrangi_Bhaijaan_Poster.jpg/220px-Bajrangi_Bhaijaan_Poster.jpg",
+        "plot":"Guided by a good heart and an unwavering faith in Hanuman, Pawan Chaturvedi rises above the divisive bounds of nationality and religion to help a little Pakistani girl who is stranded in India.",
+        "cast":"Salman Khan, Kareena Kapoor Khan, Harshaali Malhotra",
+        "director":"Kabir Khan",
+        "price":18
+    },
+    {
+        "id":"H016",
+        "title":"M.S.Dhoni: The Untold Story",
+        "year":"2016",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/3/33/M.S._Dhoni_-_The_Untold_Story_poster.jpg/220px-M.S._Dhoni_-_The_Untold_Story_poster.jpg",
+        "plot":"Mahendra Singh Dhoni, the captain of the Indian cricket team, fights countless silent battles throughout his life, both on and off the playing field.",
+        "cast":"Sushant Singh Rajput, Disha Patani, Kiara Advani",
+        "director":"Neeraj Pandey",
+        "price":20
+    },
+    {
+        "id":"H017",
+        "title":"Tiger Zinda Hai",
+        "year":"2017",
+        "url":"https://upload.wikimedia.org/wikipedia/en/2/22/Tiger_Zinda_Hai_poster.jpg",
+        "plot":"East Indian agent Tiger joins forces with Pakistani agent Zoya to battle a ruthless militant.",
+        "cast":"Salman Khan, Katrina Kaif",
+        "director":"Ali Abbas Zafar",
+        "price":14
+    },
+    {
+        "id":"H018",
+        "title":"Padmaavat",
+        "year":"2018",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Padmaavat_poster.jpg/220px-Padmaavat_poster.jpg",
+        "plot":"In medieval India, a tyrannical sultan and his army attack a prosperous kingdom to try and capture the beautiful Queen Padmavati. Her husband Maharawal Ratan Singh assembles his valiant forces to defend his land and the honor of his beloved wife.",
+        "cast":"Ranveer Singh, Shahid Kapoor, Deepika Padukone",
+        "director":"Sanjay Leela Bhansali",
+        "price":20
+    },
+    {
+        "id":"H019",
+        "title":"War",
+        "year":"2019",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/War_official_poster.jpg/220px-War_official_poster.jpg",
+        "plot":"An Indian soldier is assigned to eliminate his former mentor and he must keep his wits about him if he is to be successful in his mission; when the two men collide, it results in a barrage of battles and bullets.",
+        "cast":"Hrithik Roshan, Tiger Shroff, Vaani Kapoor",
+        "director":"Siddharth Anand",
+        "price":16
+    },
+    {
+        "id":"H020",
+        "title":"Tanhaji",
+        "year":"2020",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Tanaji_film_poster.jpg/220px-Tanaji_film_poster.jpg",
+        "plot":"Chhatrapati Shivaji's right-hand man, braveheart Subhedar Tanhaji Malusare, pits his sharp acumen against the brawn of ruthless and hedonistic Mughal chieftain Udaybhan Singh Rathore to recapture Kondhana for the Maratha empire.",
+        "cast":"Ajay Devgn, Sharad Khelker, Kajol, Saif Ali Khan",
+        "director":"Om Raut",
+        "price":14
+    },
+    {
+        "id":"H021",
+        "title":"83",
+        "year":"2021",
+        "url":"https://upload.wikimedia.org/wikipedia/en/6/69/83_film_poster.jpg",
+        "plot":"Led by an ambitious captain, India charges into the 1983 Cricket World Cup final as the dark horse to claim a historic victory against defending champion West Indies.",
+        "cast":"Ranveer Singh, Deepika Padukone",
+        "director":"Kabir Khan",
+        "price":18
+    },
+    {
+        "id":"H022",
+        "title":"The Kashmir Files",
+        "year":"2022",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/The_Kashmir_Files_poster.jpg/220px-The_Kashmir_Files_poster.jpg",
+        "plot":"A young college student sets out to uncover the truth behind his parents' brutal killings in Kashmir, leading him to a web of lies and conspiracies.",
+        "cast":"Anupam Kher, Mithun Chakraborty, Pallavi Joshi",
+        "director":"Vivek Agnihotri",
+        "price":23
+    },
+    {
+        "id":"H023",
+        "title":"Jawan",
+        "year":"2023",
+        "url":"https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Jawan_film_poster.jpg/220px-Jawan_film_poster.jpg",
+        "plot":"A man is driven by a personal vendetta to rectify the wrongs in society, while keeping a promise made years ago. He comes up against a monstrous outlaw with no fear, who has caused extreme suffering to many.",
+        "cast":"Shahrukh Khan, Nayanthara, Vijay Sethupathi, Ashlesha Thakur",
+        "director":"Atlee",
+        "price":17
+    },
+    {
+        "id":"H024",
+        "title":"Fighter",
+        "year":"2024",
+        "url":"https://upload.wikimedia.org/wikipedia/en/d/df/Fighter_film_teaser.jpg",
+        "plot":"Shamsher Pathania fulfills his lifelong dream and becomes a member of the Indian air force. As he faces rigorous challenges, Patty must rise above his own limitations to become a true hero.",
+        "cast":"Hrithik Roshan, Deepika Padukone, Anil Kapoor",
+        "director":"Siddharth Anand",
+        "price":25
+    }
+]
