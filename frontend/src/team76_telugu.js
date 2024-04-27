@@ -22,7 +22,7 @@ function Frontend_Telugu() {
     }, []);
 
     function getAllTeluguMovies() {
-        fetch("http://127.0.0.1:4000/telugu-movies")
+        fetch("http://127.0.0.1:8081/TeluguMovies")
             .then((response) => response.json())
             .then((data) => {
                 console.log("Showing all Telugu Movies: ");
@@ -61,7 +61,7 @@ function Frontend_Telugu() {
 
     function getOneTeluguMovie(id) {
         console.log(id);
-        fetch("http://127.0.0.1:4000/telugu-movies/"+id)
+        fetch("http://127.0.0.1:8081/TeluguMovies/"+id)
         .then((response) => response.json())
         .then((data) => {
             console.log("Showing the request English Movie: ", id)

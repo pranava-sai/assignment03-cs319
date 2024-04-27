@@ -22,7 +22,7 @@ function Frontend_Hindi() {
     }, []);
 
     function getAllHindiMovies() {
-        fetch("http://127.0.0.1:4000/hindi-movies")
+        fetch("http://127.0.0.1:8081/HindiMovies")
             .then((response) => response.json())
             .then((data) => {
                 console.log("Showing all Hindi Movies: ");
@@ -61,7 +61,7 @@ function Frontend_Hindi() {
 
     function getOneHindiMovie(id) {
         console.log(id);
-        fetch("http://127.0.0.1:4000/hindi-movies/"+id)
+        fetch("http://127.0.0.1:8081/HindiMovies/"+id)
         .then((response) => response.json())
         .then((data) => {
             console.log("Showing the request Hindi Movie: ", id)

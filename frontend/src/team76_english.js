@@ -61,7 +61,7 @@ function Frontend_English() {
 
     function getOneEnglishMovie(id) {
         console.log(id);
-        fetch("http://127.0.0.1:4000/english-movies/"+id)
+        fetch("http://127.0.0.1:8081/EnglishMovies/"+id)
         .then((response) => response.json())
         .then((data) => {
             console.log("Showing the request English Movie: ", id)
