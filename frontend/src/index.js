@@ -1,21 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
 import Frontend_English from './team76_english.js';
-import HomePage from './HomePage.js';
 import Frontend_Telugu from './team76_telugu.js';
 import Frontend_Hindi from './team76_hindi.js';
+import HomePage from './homepage.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/EnglishMovies" element={<Frontend_English />} />
-        <Route path="/HindiMovies" element={<Frontend_Hindi />} />
-        <Route path="/TeluguMovies" element={<Frontend_Telugu />} />
-      </Routes>
-    </Router>
+    <HomePage/>
+    {/* <Frontend_English /> */}
+    {/* <Frontend_Telugu /> */}
+    {/* <Frontend_Hindi /> */}
   </React.StrictMode>
 );
