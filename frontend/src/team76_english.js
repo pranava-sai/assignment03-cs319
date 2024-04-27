@@ -22,7 +22,7 @@ function Frontend_English() {
     }, []);
 
     function getAllEnglishMovies() {
-        fetch("http://127.0.0.1:4000/english-movies")
+        fetch("http://127.0.0.1:8081/EnglishMovies")
             .then((response) => response.json())
             .then((data) => {
                 console.log("Showing all English Movies: ");

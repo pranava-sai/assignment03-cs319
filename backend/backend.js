@@ -66,6 +66,8 @@ app.get("/HindiMovies", async (req, res) => {
     res.send(results);
 });
 
+
+
 app.post("/addNewTelugu", async (req, res) => {
     try {
         await client.connect();
