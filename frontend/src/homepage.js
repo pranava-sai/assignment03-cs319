@@ -4,6 +4,9 @@ import './homepage.css';
 import Frontend_English from './team76_english.js';
 import Frontend_Telugu from './team76_telugu.js';
 import Frontend_Hindi from './team76_hindi.js';
+import Students from './students.js';
+import Instructor from './instructor.js';
+import Admin from './admin.js';
 
 import bannerImage from './Banner2.webp'; // adjust the path if necessary
 import backgroundImage from './Homepage_BG3.webp'; // adjust the path if necessary
@@ -40,10 +43,7 @@ const HomePage = () => {
                 <Link className="nav-link" to="/instructors">Instructor</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/login">Login</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/future">Future</Link>
+                <Link className="nav-link" to="/admin">Admin</Link>
               </li>
             </ul>
           </div>
@@ -188,6 +188,9 @@ const HomePage = () => {
         <Route path="/english" element={<Frontend_English />} />
         <Route path="/telugu" element={<Frontend_Telugu />} />
         <Route path="/hindi" element={<Frontend_Hindi />} />
+        <Route path="/students" element={<Students />} />
+        <Route path="/instructors" element={<Instructor />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
 
       <footer>
