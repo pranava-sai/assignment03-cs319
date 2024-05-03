@@ -46,7 +46,7 @@ function Login() {
       {/* Updated image src attribute */}
       <img src="/cinematic_login.jpg" alt="Background" className="login__img" />
       <form className="login__form" onSubmit={handleSubmit}>
-        <h1 className="login__title">Login</h1>
+      <h1 className="login__title" style={{ color: "#FFFFFF" }}>Login</h1>
         {error && <div className="alert alert-danger">{error}</div>}
         {userName && (
           <div className="alert alert-success" style={{ color: '#FF0000' }}>
@@ -87,17 +87,10 @@ function Login() {
             </div>
           </div>
         </div>
-        <div className="login__check">
-          <div className="login__check-group">
-            <input type="checkbox" className="login__check-input" />
-            <label className="login__check-label">Remember me</label>
-          </div>
-          <button className="login__forgot">Forgot Password?</button>
-        </div>
         <button type="submit" className="login__button">
           Login
         </button>
-        <p className="login__register">
+        <p className="login__register-2">
           Don't have an account? <a href="/signup">Register</a>
         </p>
       </form>

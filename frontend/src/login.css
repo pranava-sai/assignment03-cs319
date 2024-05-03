@@ -1,3 +1,8 @@
+:root {
+  --white-color: white; /* Define white color variable if not already defined */
+  --black-color: black;
+}
+
 .login {
   position: relative;
   height: 100vh;
@@ -14,20 +19,21 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  z-index: -1;  /* Ensures it stays in the background */
+  z-index: -1;
 }
 
 .login__form {
   position: relative;
-  width: 40%; /* Set a specific width for the box */
-  max-width: 500px; /* Maximum width to ensure it doesn't get too wide on larger screens */
+  width: 40%;
+  max-width: 500px;
   background-color: hsla(0, 0%, 10%, 0.1);
   border: 2px solid var(--white-color);
-  margin: auto; /* Automatically adjust margin to center the form */
+  margin: auto;
   padding: 2.5rem;
   border-radius: 1rem;
   backdrop-filter: blur(8px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional shadow for better visibility */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: var(--white-color); /* Ensure all text in the form is white */
 }
 
 .login__title {
@@ -50,7 +56,8 @@
 }
 
 .login__input, .login__button {
-  width: 100%; /* Make sure input fields and button use the full width of the form */
+  width: 100%;
+  margin-top: 3%; /* Make sure input fields and button use the full width of the form */
 }
 
 .login__box-input {
@@ -85,10 +92,10 @@
   margin-bottom: 1.5rem;
 }
 
-.login__check-label,
-.login__forgot,
-.login__register {
+.login__check-label {
+  padding-left: 1%;
   font-size: var(--small-font-size);
+  color: var(--white-color); /* Changed text to black */
 }
 
 .login__check-input {
@@ -98,7 +105,7 @@
 
 .login__forgot {
   width: fit-content;
-  color: var(--white-color);
+  color: var(--black-color); /* Changed text to black */
   cursor: pointer; /* Ensure it's clear these are clickable */
 }
 
@@ -108,10 +115,16 @@
 
 .login__register {
   text-align: center;
+  color: var(--black-color); /* Ensure Register link is black */
+}
+
+.login__register-2 {
+  text-align: center;
+  color: var(--white-color); /* Ensure Register link is black */
 }
 
 .login__register a {
-  color: var(--white-color);
+  color: var(--white-color); /* Changed link text to black */
   font-weight: var(--font-medium);
   cursor: pointer; /* Ensure it's clear these are clickable */
 }
