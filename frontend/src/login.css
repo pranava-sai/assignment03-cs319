@@ -1,8 +1,9 @@
 .login {
   position: relative;
   height: 100vh;
-  display: grid;
-  align-items: center;
+  display: flex; /* Changed to flex for easier centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 .login__img {
@@ -16,15 +17,17 @@
   z-index: -1;  /* Ensures it stays in the background */
 }
 
-
 .login__form {
   position: relative;
+  width: 40%; /* Set a specific width for the box */
+  max-width: 500px; /* Maximum width to ensure it doesn't get too wide on larger screens */
   background-color: hsla(0, 0%, 10%, 0.1);
   border: 2px solid var(--white-color);
-  margin-inline: 1.5rem;
-  padding: 2.5rem 1.5rem;
+  margin: auto; /* Automatically adjust margin to center the form */
+  padding: 2.5rem;
   border-radius: 1rem;
   backdrop-filter: blur(8px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional shadow for better visibility */
 }
 
 .login__title {
@@ -36,19 +39,9 @@
 
 .login__content,
 .login__box {
-  display: grid;
-}
-
-.login__content {
-  row-gap: 1.75rem;
-  margin-bottom: 1.5rem;
-}
-
-.login__box {
-  grid-template-columns: max-content 1fr;
-  align-items: center;
-  column-gap: 0.75rem;
-  border-bottom: 2px solid var(--white-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Consistent spacing between elements */
 }
 
 .login__icon,
@@ -56,13 +49,8 @@
   font-size: 1.25rem;
 }
 
-.login__input {
-  width: 100%;
-  padding-block: 0.8rem;
-  background: none;
-  color: var(--white-color);
-  position: relative;
-  z-index: 1;
+.login__input, .login__button {
+  width: 100%; /* Make sure input fields and button use the full width of the form */
 }
 
 .login__box-input {
@@ -72,9 +60,10 @@
 .login__label {
   position: absolute;
   left: 0;
-  top: 13px;
+  top: -25px; /* Position label above the input field */
   font-weight: var(--font-medium);
-  transition: top 0.3s, font-size 0.3s;
+  color: var(--white-color); /* Ensure the label is visible against the background */
+  transition: top 0.2s, font-size 0.3s;
 }
 
 .login__eye {
@@ -85,15 +74,11 @@
   cursor: pointer;
 }
 
-.login__box:nth-child(2) input {
-  padding-right: 1.8rem;
-}
-
 .login__check,
 .login__check-group {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* Adjusted to spread checkbox and forgot password link */
 }
 
 .login__check {
@@ -106,31 +91,19 @@
   font-size: var(--small-font-size);
 }
 
-.login__check-group {
-  column-gap: 0.5rem;
-}
-
 .login__check-input {
   width: 16px;
   height: 16px;
 }
 
 .login__forgot {
+  width: fit-content;
   color: var(--white-color);
+  cursor: pointer; /* Ensure it's clear these are clickable */
 }
 
 .login__forgot:hover {
   text-decoration: underline;
-}
-
-.login__button {
-  width: 100%;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  background-color: var(--white-color);
-  font-weight: var(--font-medium);
-  cursor: pointer;
-  margin-bottom: 2rem;
 }
 
 .login__register {
@@ -140,20 +113,16 @@
 .login__register a {
   color: var(--white-color);
   font-weight: var(--font-medium);
+  cursor: pointer; /* Ensure it's clear these are clickable */
 }
 
 .login__register a:hover {
   text-decoration: underline;
 }
 
-/* Input focus move up label */
-.login__input:focus + .login__label {
-  top: -12px;
-  font-size: var(--small-font-size);
-}
-
-/* Input focus sticky top label */
-.login__input:not(:placeholder-shown).login__input:not(:focus) + .login__label {
-  top: -12px;
-  font-size: var(--small-font-size);
+/* Input focus keep label at the top */
+.login__input:focus + .login__label,
+.login__input:not(:placeholder-shown) + .login__label {
+  top: -20px; /* Keep label above */
+  font-size: var(--small-font-size); /* Optionally adjust font size */
 }
