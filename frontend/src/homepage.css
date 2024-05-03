@@ -187,6 +187,22 @@ body, html {
     flex-basis: 40%;
     background-size: cover;
     background-position: center;
-    width: auto;
-    height: 600px;
+    width: 350px;
+    height: 550px;
 }
+
+film-tile-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .film-tile-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .film-tile:hover .film-tile-image img {
+    transform: scale(1.1);
+  }

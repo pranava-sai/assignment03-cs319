@@ -1,74 +1,108 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import './login.css';
+// import './auth.css';
+
 
 function Login() {
-    const navigate = useNavigate();
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
-    const [userName, setUserName] = useState(''); // State to store the user's name
+  const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const [userName, setUserName] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-        try {
-            const response = await axios.post('http://127.0.0.1:8081/login', {
-                email,
-                password
-            });
+    try {
+      const response = await axios.post('http://127.0.0.1:8081/login', {
+        email,
+        password,
+      });
 
-            if (response.data.success) {
-                setUserName(response.data.name); // Store the user's name from the response
-                // Delay navigation to allow the user to see the welcome message
-                setTimeout(() => {
-                    navigate('/home'); // Adjust this as needed for your routes
-                }, 2000); // Delay for 2 seconds before navigating
-            } else {
-                setError(response.data.message);
-            }
-        } catch (error) {
-            setError('Failed to login. Please try again later.');
-            console.error('Login error:', error);
-        }
-    };
+      if (response.data.success) {
+        setUserName(response.data.name);
+        localStorage.setItem('user', JSON.stringify({ email, name: response.data.name }));
+        setTimeout(() => {
+          navigate('/home', { state: { userName: response.data.name } });
+        }, 2000);
+      } else {
+        setError(response.data.message);
+      }
+    } catch (error) {
+      setError('Failed to login. Please try again later.');
+      console.error('Login error:', error);
+    }
+  };
 
-    return (
-        <div className="container mt-5">
-            <h2>Login</h2>
-            {error && <div className="alert alert-danger">{error}</div>}
-            {userName && <div className="alert alert-success" style={{ color: "#FF0000" }}>
-                Welcome, {userName}
-            </div>}
-            <form onSubmit={handleSubmit} className="w-50 mx-auto">
-                <div className="form-group">
-                    <label htmlFor="email">Email address:</label>
-                    <input
-                        type="email"
-                        className="form-control"
-                        id="email"
-                        placeholder="Enter email"
-                        value={email}
-                        onChange={e => setEmail(e.target.value)}
-                        required
-                    />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="password">Password:</label>
-                    <input
-                        type="password"
-                        className="form-control"
-                        id="password"
-                        placeholder="Password"
-                        value={password}
-                        onChange={e => setPassword(e.target.value)}
-                        required
-                    />
-                </div>
-                <button type="submit" className="btn btn-primary">Login</button>
-            </form>
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
+  return (
+    <div className="login">
+      {/* Updated image src attribute */}
+      <img src="/cinematic_login.jpg" alt="Background" className="login__img" />
+      <form className="login__form" onSubmit={handleSubmit}>
+        <h1 className="login__title">Login</h1>
+        {error && <div className="alert alert-danger">{error}</div>}
+        {userName && (
+          <div className="alert alert-success" style={{ color: '#FF0000' }}>
+            Welcome, {userName}
+          </div>
+        )}
+        <div className="login__content">
+          <div className="login__box">
+            <i className="ri-user-line login__icon"></i>
+            <div className="login__box-input">
+              <input
+                type="email"
+                required
+                className="login__input"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <label className="login__label">Email</label>
+            </div>
+          </div>
+          <div className="login__box">
+            <i className="ri-lock-line login__icon"></i>
+            <div className="login__box-input">
+              <input
+                type={showPassword ? 'text' : 'password'}
+                required
+                className="login__input"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <label className="login__label">Password</label>
+              <i
+                className={`login__eye ${showPassword ? 'ri-eye-line' : 'ri-eye-off-line'}`}
+                onClick={togglePasswordVisibility}
+              ></i>
+            </div>
+          </div>
         </div>
-    );
+        <div className="login__check">
+          <div className="login__check-group">
+            <input type="checkbox" className="login__check-input" />
+            <label className="login__check-label">Remember me</label>
+          </div>
+          <button className="login__forgot">Forgot Password?</button>
+        </div>
+        <button type="submit" className="login__button">
+          Login
+        </button>
+        <p className="login__register">
+          Don't have an account? <a href="/signup">Register</a>
+        </p>
+      </form>
+    </div>
+  );
 }
 
 export default Login;
