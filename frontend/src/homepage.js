@@ -1,36 +1,27 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-
-import {useLocation, useNavigate} from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './homepage.css';
-import Frontend_English from './team76_english.js';
-import Frontend_Telugu from './team76_telugu.js';
-import Frontend_Hindi from './team76_hindi.js';
+import FrontendEnglish from './team76_english.js';
+import FrontendTelugu from './team76_telugu.js';
+import FrontendHindi from './team76_hindi.js';
 import Students from './students.js';
 import Instructor from './instructor.js';
 import Admin from './admin.js';
-import Signup from './Signup';
-import Login from './Login';
 import ProtectedRoute from './ProtectedRoute';
 
-import bannerImage from './Banner2.webp'; // adjust the path if necessary
-import backgroundImage from './Homepage_BG3.webp'; // adjust the path if necessary
+import { Routes, Route } from 'react-router-dom';
 
-function Home (){
-  const location=useLocation()
+import bannerImage from './Banner2.webp';
+import backgroundImage from './Homepage_BG3.webp';
 
-  return (
-      <div className="homepage">
-
-          <h1>Hello {location.state.id} and welcome to the home</h1>
-
-      </div>
-  )
-}
+import { CardContainer, CardBody, CardItem } from './components/ui/threedcard.tsx';
 
 const HomePage = () => {
+  const location = useLocation();
+  const userName = location.state?.userName;
+
   return (
-    <Router>
+    <div>
       <div className="banner" style={{ backgroundImage: `url(${bannerImage})` }}></div>
       <div className="page-background" style={{ backgroundImage: `url(${backgroundImage})` }}></div>
 
@@ -61,16 +52,14 @@ const HomePage = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/admin">Admin</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/signup">Signup</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/login">Login</Link>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
+
+      <div className="container mt-4">
+        <h2 className="text-white">Welcome, {userName}!</h2>
+      </div>
 
       <main>
         <div className="container text-center my-4">
@@ -121,14 +110,21 @@ const HomePage = () => {
                     household names, enchanting audiences with their timeless
                     performances.
                   </p>
-                </div>
-                <div
-                  className="film-tile-image"
-                  style={{
-                    backgroundImage:
-                      "url('https://media.artsper.com/artwork/1582596_1_m.jpg')",
-                  }}
-                ></div>
+                  </div>
+                <CardContainer className="film-tile-image">
+                  <CardBody>
+                    <CardItem
+                      translateZ="20"
+                      rotateX={10}
+                      rotateY={-10}
+                    >
+                      <img
+                        src="https://media.artsper.com/artwork/1582596_1_m.jpg"
+                        alt="Silent Age"
+                      />
+                    </CardItem>
+                  </CardBody>
+                </CardContainer>
               </div>
             </div>
 
@@ -153,14 +149,21 @@ const HomePage = () => {
                     Wind," and "The Wizard of Oz," which continue to captivate
                     audiences.
                   </p>
-                </div>
-                <div
-                  className="film-tile-image"
-                  style={{
-                    backgroundImage:
-                      "url('https://upload.wikimedia.org/wikipedia/commons/2/27/Poster_-_Gone_With_the_Wind_01.jpg')",
-                  }}
-                ></div>
+                  </div>
+                <CardContainer className="film-tile-image">
+                  <CardBody>
+                    <CardItem
+                      translateZ="20"
+                      rotateX={10}
+                      rotateY={-10}
+                    >
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/2/27/Poster_-_Gone_With_the_Wind_01.jpg"
+                        alt="Golden Age"
+                      />
+                    </CardItem>
+                  </CardBody>
+                </CardContainer>
               </div>
             </div>
 
@@ -187,14 +190,21 @@ const HomePage = () => {
                     the industry's economic landscape and how movies are
                     marketed worldwide.
                   </p>
-                </div>
-                <div
-                  className="film-tile-image"
-                  style={{
-                    backgroundImage:
-                      "url('https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg')",
-                  }}
-                ></div>
+                  </div>
+                <CardContainer className="film-tile-image">
+                  <CardBody>
+                    <CardItem
+                      translateZ="20"
+                      rotateX={10}
+                      rotateY={-10}
+                    >
+                      <img
+                        src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
+                        alt="Modern Age"
+                      />
+                    </CardItem>
+                  </CardBody>
+                </CardContainer>
               </div>
             </div>
           </div>
@@ -202,19 +212,14 @@ const HomePage = () => {
       </main>
 
       <Routes>
-        <Route path="/" element={<main>
-          <div className="container text-center my-4">
-            {/* Content here will be the default view on the '/' route */}
-          </div>
-        </main>} />
-        <Route path="/english" element={<Frontend_English />} />
-        <Route path="/telugu" element={<Frontend_Telugu />} />
-        <Route path="/hindi" element={<Frontend_Hindi />} />
-        <Route path="/students" element={<Students />} />
-        <Route path="/instructors" element={<Instructor />} />
-        <Route path="/admin" element={<ProtectedRoute element={Admin} />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/login" element={<Login />} />
+        <Route path = "/" element = {<main> <div className="container text-center my-4" ></div></main>}/>
+
+      <Route path="/english" element={<FrontendEnglish />} />
+      <Route path="/telugu" element={<FrontendTelugu />} />
+      <Route path="/hindi" element={<FrontendHindi />} />
+      <Route path="/students" element={<Students />} />
+      <Route path="/instructors" element={<Instructor />} />
+      <Route path="/admin" element={<ProtectedRoute element={Admin} />} />
       </Routes>
 
       <footer>
@@ -225,7 +230,7 @@ const HomePage = () => {
           Webpage Template Powered By: &copy; Bootstrap
         </p>
       </footer>
-    </Router>
+    </div>
   );
 };
 
