@@ -9,6 +9,9 @@ const dbName = "team76";
 const client = new MongoClient(url);
 const db = client.db(dbName)
 
+// const authRoutes = require('./authRoutes');
+// app.use('/auth', authRoutes);
+
 app.use(cors());
 app.use(bodyParser.json());
 
@@ -269,3 +272,101 @@ app.delete("/deleteEnglish/:id", async (req, res) => {
         await client.close();
     }
 });
+
+app.post("/",async(req,res)=>{
+    const{email,password}=req.body
+
+    try{
+        const check=await collection.findOne({email:email})
+
+        if(check){
+            res.json("exist")
+        }
+        else{
+            res.json("notexist")
+        }
+
+    }
+    catch(e){
+        res.json("fail")
+    }
+
+})
+
+
+app.post("/signup", async (req, res) => {
+    try {
+        const { id, name, email, password, userType = "user" } = req.body;
+        const doubleCheck = await db.collection("users").findOne({ email: email });
+        if (doubleCheck) {
+            return res.status(400).send({ success: false, message: "User already exists with the given email." });
+        }
+        const newDocument = {
+            id: id,
+            name: name,
+            email: email,
+            password: password, // Note: password should be hashed in production
+            userType: userType,
+        };
+        const result = await db.collection("users").insertOne(newDocument);
+        res.status(200).send({ success: true, result: result });
+    } catch (error) {
+        console.error("Error during user signup:", error);
+        res.status(500).send({ error: 'An internal server error occurred' });
+    }
+});
+
+app.post("/login", async (req, res) => {
+    try {
+        const { email, password } = req.body;
+
+        const user = await db.collection("users").findOne({ email: email });
+        if (!user) {
+            return res.status(404).send({ success: false, message: "No user found with that email." });
+        }
+
+        if (user.password !== password) {
+            return res.status(401).send({ success: false, message: "Incorrect password." });
+        }
+
+        // Successful login: return success status and the user's name
+        res.status(200).send({ success: true, message: "Login successful", name: user.name });
+
+    } catch (error) {
+        console.error("Error during user login:", error);
+        res.status(500).send({ error: 'An internal server error occurred' });
+    }
+});
+
+
+
+
+// app.post("/signup",async(req,res)=>{
+//     const{email,password}=req.body
+
+//     const data={
+//         email:email,
+//         password:password
+//     }
+
+//     try{
+//         const check=await collection.findOne({email:email})
+
+//         if(check){
+//             res.json("exist")
+//         }
+//         else{
+//             res.json("notexist")
+//             await collection.insertMany([data])
+//         }
+
+//     }
+//     catch(e){
+//         res.json("fail")
+//     }
+
+// })
+
+// app.listen(8000,()=>{
+//     console.log("port connected");
+// })

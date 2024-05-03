@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
+import {useLocation, useNavigate} from 'react-router-dom';
 import './homepage.css';
 import Frontend_English from './team76_english.js';
 import Frontend_Telugu from './team76_telugu.js';
@@ -7,15 +9,29 @@ import Frontend_Hindi from './team76_hindi.js';
 import Students from './students.js';
 import Instructor from './instructor.js';
 import Admin from './admin.js';
+import Signup from './Signup';
+import Login from './Login';
+import ProtectedRoute from './ProtectedRoute';
 
 import bannerImage from './Banner2.webp'; // adjust the path if necessary
 import backgroundImage from './Homepage_BG3.webp'; // adjust the path if necessary
 
+function Home (){
+  const location=useLocation()
+
+  return (
+      <div className="homepage">
+
+          <h1>Hello {location.state.id} and welcome to the home</h1>
+
+      </div>
+  )
+}
 
 const HomePage = () => {
   return (
     <Router>
-        <div className="banner" style={{ backgroundImage: `url(${bannerImage})` }}></div>
+      <div className="banner" style={{ backgroundImage: `url(${bannerImage})` }}></div>
       <div className="page-background" style={{ backgroundImage: `url(${backgroundImage})` }}></div>
 
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -44,6 +60,12 @@ const HomePage = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/admin">Admin</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/signup">Signup</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">Login</Link>
               </li>
             </ul>
           </div>
@@ -190,7 +212,9 @@ const HomePage = () => {
         <Route path="/hindi" element={<Frontend_Hindi />} />
         <Route path="/students" element={<Students />} />
         <Route path="/instructors" element={<Instructor />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/admin" element={<ProtectedRoute element={Admin} />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
 
       <footer>
@@ -204,4 +228,5 @@ const HomePage = () => {
     </Router>
   );
 };
+
 export default HomePage;
