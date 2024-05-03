@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom'; // Import Link here
 import './signup.css';
-// import './auth.css';
-
 
 function Signup() {
   const navigate = useNavigate();
@@ -12,6 +10,7 @@ function Signup() {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
 
   const submit = async (e) => {
     e.preventDefault();
@@ -30,7 +29,7 @@ function Signup() {
 
       if (response.data.success) {
         localStorage.setItem('user', JSON.stringify({ email, name }));
-        navigate('/home', { state: { userName: name } });
+        navigate('/login');
       } else {
         setError(response.data.message || 'Signup failed');
       }
@@ -40,40 +39,92 @@ function Signup() {
     }
   };
 
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
+  const goToLogin = () => {
+    navigate('/login');
+  };
+
   return (
     <div className="signup">
-      <h1>Signup</h1>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
-      <form onSubmit={submit}>
-        <input
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          placeholder="Name"
-          required
-        />
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Email"
-          required
-        />
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          placeholder="Password"
-          required
-        />
-        <input
-          type="password"
-          value={confirmPassword}
-          onChange={(e) => setConfirmPassword(e.target.value)}
-          placeholder="Confirm Password"
-          required
-        />
-        <input type="submit" value="Sign Up" />
+      <img src="/cinematic_login.jpg" alt="Background" className="signup__img" />
+      <form className="signup__form" onSubmit={submit}>
+        <h1 className="signup__title">Sign Up</h1>
+        {error && <div className="alert alert-danger">{error}</div>}
+        <div className="signup__content">
+          <div className="signup__box">
+            <i className="ri-user-line signup__icon"></i>
+            <div className="signup__box-input">
+              <input
+                type="text"
+                required
+                className="signup__input"
+                placeholder="Name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+              <label className="signup__label">Name</label>
+            </div>
+          </div>
+          <div className="signup__box">
+            <i className="ri-mail-line signup__icon"></i>
+            <div className="signup__box-input">
+              <input
+                type="email"
+                required
+                className="signup__input"
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <label className="signup__label">Email</label>
+            </div>
+          </div>
+          <div className="signup__box">
+            <i className="ri-lock-line signup__icon"></i>
+            <div className="signup__box-input">
+              <input
+                type={showPassword ? 'text' : 'password'}
+                required
+                className="signup__input"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <label className="signup__label">Password</label>
+              <i
+                className={`signup__eye ${showPassword ? 'ri-eye-line' : 'ri-eye-off-line'}`}
+                onClick={togglePasswordVisibility}
+              ></i>
+            </div>
+          </div>
+          <div className="signup__box">
+            <i className="ri-lock-line signup__icon"></i>
+            <div className="signup__box-input">
+              <input
+                type={showPassword ? 'text' : 'password'}
+                required
+                className="signup__input"
+                placeholder="Confirm Password"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+              />
+              <label className="signup__label">Confirm Password</label>
+              <i
+                className={`signup__eye ${showPassword ? 'ri-eye-line' : 'ri-eye-off-line'}`}
+                onClick={togglePasswordVisibility}
+              ></i>
+            </div>
+          </div>
+        </div>
+        <button type="submit" className="signup__button">
+          Sign Up
+        </button>
+        <p className="signup__login">
+          Already have an account? <a href="/">Login</a>
+        </p>
       </form>
     </div>
   );
